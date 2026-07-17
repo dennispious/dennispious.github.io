@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Dennis Pious — UX & Interaction Design portfolio" />
+    <title>Dennis Pious — UX & Interaction Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home">Portfolio</a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">Menu</button>
+      <nav aria-label="Primary navigation">
+        <a href="#home">Home</a><a href="#work">Works</a><a href="#about">About</a><a href="#ideas">Ideas</a><a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero section">
+        <p class="eyebrow">Dennis Pious · UX &amp; Interaction Design</p>
+        <h1>DESIGN</h1>
+        <p class="hero-copy">Design is the sweet spot between Science and Art.</p>
+        <div class="science-art" aria-label="Science and Art">
+          <div><span class="atom">⚛</span><small>Science</small></div><span class="balance-line"><i></i></span><div><span class="art-mark">◩</span><small>Art</small></div>
+        </div>
+        <a class="button" href="#work">View My Work</a>
+      </section>
+
+      <section class="philosophy section section-muted">
+        <div class="philosophy-card"><h2>PHILOSOPHY</h2><p>Terrariums and aquascapes are nature's design systems in miniature, my sandbox for learning from the best.</p><p><strong>I believe the most resilient designs are self-sustaining systems, inspired by the balance and restraint found in nature.</strong></p></div>
+        <img src="assets/terrarium.png" alt="A planted terrarium" />
+      </section>
+
+      <section class="section recognition">
+        <h2 class="section-title">RECOGNITION &amp; INNOVATION</h2>
+        <div class="recognition-grid">
+          <article class="award-card"><img src="assets/guided-health.png" alt="Philips Guided Health Service app" /><span class="tag">✦ Award winning</span><h3>Philips Guided Health Service</h3><p>Heart Health Monitoring App</p><small><b>iF Design Award – UX</b><br />Contribution: mood &amp; energy visual design.</small></article>
+          <article class="award-card"><img src="assets/radiography.png" alt="Philips Digital Radiography mobile X-ray system" /><span class="tag">✦ Award winning</span><h3>Philips Digital Radiography 7000 M</h3><p>Mobile X-ray System</p><small><b>iF Design Award – Product UX</b><br />Contribution: icon system redesign.</small></article>
+          <article class="award-card idea-award"><span class="bulb">◌</span><h3>Intellectual Property</h3><small>Multiple UI &amp; illustration IP registrations.</small></article>
+        </div>
+      </section>
+
+      <section id="work" class="section works">
+        <p class="eyebrow">Selected portfolio</p><h2 class="page-title">Selected Work</h2><p class="intro">A collection of design systems, interfaces, illustrations, and visual identities.</p>
+        <div class="filters" aria-label="Work filters"><button class="is-active" data-filter="all">All</button><button data-filter="product">Product UX</button><button data-filter="visual">Visual Design</button></div>
+        <div class="work-grid">
+          <article class="work-card" data-type="visual"><img src="assets/dxr.png" alt="Philips Digital Radiography 7000 M" /><span>01</span><h3>Philips Digital Radiography 7000 M (DXR)</h3><p>Modernized 200+ ISO-compliant clinical icons for mobile X-ray workflows.</p><small>Role: Visual Design · Iconography</small><a href="#case-dxr">View Case Study →</a></article>
+          <article class="work-card" data-type="product"><img src="assets/heartprint.png" alt="Philips Guided Health Service HeartPrint app" /><span>02</span><h3>Philips Guided Health Service (HeartPrint App)</h3><p>Designed visual systems for mood, energy, and heart-health tracking.</p><small>Role: UX Design · Visual Design</small><a href="#case-heartprint">View Case Study →</a></article>
+          <article class="work-card" data-type="visual"><img src="assets/dls.png" alt="Philips Design Language System" /><span>03</span><h3>Philips Design Language System</h3><p>Built scalable icons, pictograms, and clinical illustration guidelines.</p><small>Role: Design System · Illustration</small><a href="#case-dls">View Case Study →</a></article>
+          <article class="work-card" data-type="visual"><img src="assets/quest.png" alt="Quest Alliance Educational Books" /><span>04</span><h3>Quest Alliance Educational Books</h3><p>Designed multi-level curriculum books with color-coded visual systems.</p><small>Role: Visual Design · Illustration</small><a href="#case-quest">View Case Study →</a></article>
+          <article class="work-card" data-type="visual"><img src="assets/beetvpn.png" alt="BeetVPN campaign" /><span>05</span><h3>BeetVPN Social Campaign</h3><p>Playful visual language and social content for a privacy-first VPN.</p><small>Role: Visual Design · Campaign</small><a href="#case-beetvpn">View Case Study →</a></article>
+          <article class="work-card" data-type="product"><img src="assets/jobconnect.png" alt="JobConnect platform" /><span>06</span><h3>JobConnect</h3><p>Reimagined a recruitment platform with AI-powered workflows.</p><small>Role: UX Design · Product Strategy</small><a href="#case-jobconnect">View Case Study →</a></article>
+        </div>
+      </section>
+
+      <section id="about" class="section about section-muted"><p class="eyebrow">A little about me</p><h2 class="page-title">About</h2><div class="about-copy"><p>I’m Dennis, a UX and interaction designer creating thoughtful digital products, visual systems, and experiences.</p><p>My work brings together systems thinking, curiosity, and a deep appreciation for the small details that make an experience feel clear and human.</p><dl><div><dt>Focus</dt><dd>UX design, interaction design &amp; visual systems</dd></div><div><dt>Currently</dt><dd>Philips Design</dd></div></dl></div></section>
+
+      <section id="ideas" class="section ideas"><p class="eyebrow">Notes in progress</p><h2 class="page-title">Ideas &amp; Explorations</h2><p class="intro">Explorations at the intersection of science, design &amp; behavior.</p><div class="empty-state"><span>✦</span><h3>New writing is on its way.</h3><p>This is where future articles, experiments, and observations will live.</p></div></section>
+
+      <section id="contact" class="section contact section-dark"><p class="eyebrow">Let’s make something thoughtful</p><h2>Let’s Connect</h2><p>Have a project, opportunity, or idea to discuss? I’d love to hear from you.</p><a class="button button-light" href="mailto:hello@example.com">Send an email</a></section>
+    </main>
+    <footer>Dennis · Philips Design · UX &amp; Interaction Design</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
